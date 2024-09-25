@@ -11,6 +11,7 @@ public class MainApp {
 
         sda.traverseLinkedList();
         sda.searchNode(1);
+        sda.deleteNode(2);
     }
 
 }

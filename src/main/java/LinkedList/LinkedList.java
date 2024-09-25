@@ -51,16 +51,19 @@ public class LinkedList {
     }
     //Traverse a Linked List
     public void traverseLinkedList(){
-        if(head == null){
-            System.out.println("Linked List does not exist");
+        if (head == null) {
+            System.out.println("Linked list does not exist");
         } else {
             Node tempNode = head;
             for (int i = 0; i < size; i++){
-                System.out.println(tempNode.value);
+                System.out.print(tempNode.value);
+                if (i !=size -1 ){
+                    System.out.print(" -> ");
+                }
                 tempNode = tempNode.next;
             }
         }
-
+        System.out.print("\n");
     }
     //Search for a Node
     public boolean searchNode(int nodeValue){
