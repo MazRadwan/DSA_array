@@ -87,38 +87,36 @@ public class LinkedList {
     // if deleting at the end
     // if deleting anywhere in the list
 
-    public void deleteNode(int location){
-        if (head == null){
+    public void deleteNode(int location) {
+        if (head == null) {
             System.out.println("Linked List does not exist");
             return;
-        } else if (location == 0){
+        } else if (location == 0) { // Deleting at the beginning
             head = head.next;
             size--;
-            if (size == 0){
-                tail = null;
+            if (size == 0) {
+                tail = null; // If the list becomes empty
             }
-        } else if (location >= size){
+        } else if (location >= size || location < 0) { // Invalid location
+            System.out.println("Invalid location");
+            return;
+        } else if (location == size - 1) { // Deleting the last node
             Node tempNode = head;
-            for (int i = 0; i < size - 1; i++){
+            for (int i = 0; i < size - 2; i++) { // Stop at second t0 last node
                 tempNode = tempNode.next;
-            }
-            if (tempNode == head){
-                head = tail = null;
-                size--;
-                return;
             }
             tempNode.next = null;
-            tail = tempNode;
+            tail = tempNode; // Update the tail
             size--;
-        } else {
+        } else { // Deleting from anywhere in the list
             Node tempNode = head;
-            for (int i = 0; i < location - 1; i++){
+            for (int i = 0; i < location - 1; i++) { // Traverse to the node before node to be deleted
                 tempNode = tempNode.next;
             }
-            tempNode.next = tempNode.next.next;
+            tempNode.next = tempNode.next.next; // Bypass the node to be deleted
             size--;
         }
-        System.out.println("Node" + " " + location + " has been deleted");
+        System.out.println("Node" + " " + location + " " + "has been deleted");
+        System.out.println("The size of the linked list is now " + size);
     }
-
 }
