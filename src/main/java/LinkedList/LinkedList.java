@@ -118,6 +118,7 @@ public class LinkedList {
             tempNode.next = tempNode.next.next;
             size--;
         }
+        System.out.println("Node" + " " + location + " has been deleted");
     }
 
 }
