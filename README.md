@@ -12,7 +12,7 @@ Calculate the average temperature, and give how many days are above the avarage 
 *Insert into a linked list*
 
 0. if linked list doesn't exist then create it
-1. Inserting at the begining
+1. Inserting at the beginning
 2. Inserting at the ending
 3. Insert anywhere in the Linked List
 
