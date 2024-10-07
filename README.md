@@ -16,7 +16,8 @@ Calculate the average temperature, and give how many days are above the avarage 
 2. Inserting at the ending
 3. Insert anywhere in the Linked List
 
-**Doouble Linked List Assignment**
+**Double Linked List Assignment**
+
 *create a redo method for an UndoRedoManager class*
 - Assignment located in the DoubleLinkedList folder
 
