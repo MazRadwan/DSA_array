@@ -28,7 +28,7 @@ public class QueueArray {
             return false;
         }
     }
-    //isEmpty
+    //isEmpty --- this is the method that was causing the empty -1 error Kennedy was having
     public boolean isEmpty(){
         if (beginningOfQueue == -1 || beginningOfQueue == arr.length) {
             System.out.println("The queue is empty");
