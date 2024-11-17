@@ -58,3 +58,7 @@ with the following functionality:
   - Reserving a seat.
   - Cancelling a reservation.
   - Retrieving the seat status.
+
+## Recursion Assignment
+- Write a function that finds the sum of a positive integer number using recursion as SHOWN in class.
+- Write a function that takes in any decimal number and converts to a binary number using the flow we did in class 
