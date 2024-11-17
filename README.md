@@ -21,6 +21,10 @@ Calculate the average temperature, and give how many days are above the avarage 
 *create a redo method for an UndoRedoManager class*
 - Assignment located in the DoubleLinkedList folder
 
+**Recursion Assignment**
+- Write a function that finds the sum of a positive integer number using recursion as SHOWN in class.
+- Write a function that takes in any decimal number and converts to a binary number using the flow we did in class
+
 ***
 
 ## QAP 1 - Movie Theater Seating Reservation System
@@ -59,6 +63,3 @@ with the following functionality:
   - Cancelling a reservation.
   - Retrieving the seat status.
 
-## Recursion Assignment
-- Write a function that finds the sum of a positive integer number using recursion as SHOWN in class.
-- Write a function that takes in any decimal number and converts to a binary number using the flow we did in class 
